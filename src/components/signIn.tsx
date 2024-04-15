@@ -68,7 +68,7 @@ const SignIn = ()=>{
                             <Row align={"middle"} justify={"center"}>
                                 <Form.Item>
                                     <Button
-                                        type='primary'
+                                        // type='primary'
                                         loading={loading}
                                         htmlType='submit'
                                     >

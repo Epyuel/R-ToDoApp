@@ -6,12 +6,12 @@ body{
     width:100%;
     height:100vh;
     display:flex;
-    background-color: #0f123f;
+    background-color: rgb(48, 48, 48);
 }
 
 .navbar-items{
     margin-top: 30px;
-    background-color: #0f123f;
+    background-color: rgb(48, 48, 48);
     color:white;
     width:200px;
     display:flex;
@@ -53,13 +53,13 @@ body{
 }
 
 .navbar-items li.active{
-    background-color: #af90eb;
+    background-color: #c8c7c9;
     padding: 10px 30px;
     border-radius: 20px;
 }
 
 .navbar-items li:hover{
-    background-color: #cebbf5;
+    background-color: #777777;
 
 }
 

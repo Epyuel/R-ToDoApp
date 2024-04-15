@@ -93,3 +93,30 @@ body{
 .iconButtons:hover {
     transform: scale(1.2); 
 }
+
+.ant-btn {
+    background-color: rgb(48, 48, 48);
+    color:white;
+}
+
+
+/* Hide scrollbar track */
+/* scrollbar */
+*::-webkit-scrollbar {
+    /* width of the entire scrollbar */
+    width: 8px !important;
+}
+
+*::-webkit-scrollbar-track {
+    /* color of the tracking area */
+    background: #ebebeb !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    /* color of the scroll thumb */
+    background-color: #999999 !important;
+    /* roundness of the scroll thumb */
+    border-radius: 20px !important;
+    /* creates padding around scroll thumb */
+    border: 3px solid #999999 !important;
+}
