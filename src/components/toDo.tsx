@@ -136,6 +136,11 @@ const ToDo= ()=>{
                     </div>
 
                     <h3>{toDo.title}</h3>
+                    <div 
+                        className={toDo.difficulty === "Easy"?"difficulty green":toDo.difficulty === "Medium"?"difficulty orange":"difficulty"}
+                    >
+                        {toDo.difficulty}
+                    </div>
                     <p>{toDo.timestamp}</p>
                     <p style={{height:'90px'}}>{truncateString(toDo.description??"",100)}</p>
                     <div className="button-container">
@@ -205,8 +210,9 @@ const ToDo= ()=>{
                 </div>
             </div>
             <div className="cards-container">
-                {
+                {filteredToDos.length?
                     filteredToDos.map(toDo=><CustomCard toDo={toDo}/>)
+                    :<div style={{width:'80%',height:'77vh',display:'flex',alignItems:'center',justifyContent:'center'}}><h3>No task</h3></div>
                 }
             </div>
         </div>

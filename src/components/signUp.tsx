@@ -75,11 +75,10 @@ const SignUp = ()=>{
                             <Row align={"middle"} justify={"center"}>
                                 <Form.Item>
                                     <Button
-                                        type='primary'
                                         loading={loading}
                                         htmlType='submit'
                                     >
-                                        Sign up
+                                        Sign Up
                                     </Button>
                                 </Form.Item>
                             </Row>

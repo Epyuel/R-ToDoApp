@@ -99,24 +99,37 @@ body{
     color:white;
 }
 
+.difficulty{
+    border: 2px solid red;
+    display: inline;
+    padding: 2px 7px;
+    border-radius: 20px;
+    color:red;
+    font-weight: 500;
+}
 
-/* Hide scrollbar track */
-/* scrollbar */
+.orange{
+    border: 2px solid orange;
+    color:orange;
+}
+
+.green{
+    border: 2px solid green;
+    color:green;
+}
+
+
+
 *::-webkit-scrollbar {
-    /* width of the entire scrollbar */
     width: 8px !important;
 }
 
 *::-webkit-scrollbar-track {
-    /* color of the tracking area */
     background: #ebebeb !important;
 }
 
 *::-webkit-scrollbar-thumb {
-    /* color of the scroll thumb */
     background-color: #999999 !important;
-    /* roundness of the scroll thumb */
     border-radius: 20px !important;
-    /* creates padding around scroll thumb */
     border: 3px solid #999999 !important;
 }
